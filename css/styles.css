@@ -1,0 +1,148 @@
+/* ------- For Desktops ------- */
+*{
+	margin: 0; 
+	padding: 0;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #fffbe6 !important;
+}
+
+nav, .profile-info, .form-group{
+	visibility: hidden;
+	display: none;
+}
+
+#profile{
+	width: 500px;
+	height: 500px;
+}
+
+.progress .progress-bar.active {
+    font-weight: 700;
+    animation: progress-bar-stripes .5s linear infinite;
+}
+
+.card-header{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #fd5523;
+	background-color: #fffbe6;
+}
+
+.card-text{
+	font-family: 'Lekton', sans-serif;
+	font-size: 18px;
+	color: #356859;
+}
+
+.arrow-icons{
+	padding: 2%;
+	color: #fd5523;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.brand{
+	position: absolute;
+	top: 10%;
+	left: 8%;
+	z-index: 1000;
+}
+
+.skills{
+	padding: 10%;
+	font-size: 100px;
+	font-family: 'Montserrat', sans-serif;
+	color: #fd5523;
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	color: #37966f;
+}
+
+.legend{
+	font-family: 'Montserrat', sans-serif;
+	color: #fd5523;
+}
+
+.legend-info{
+	font-family: 'Lekton', sans-serif;
+	color: #37966f;
+}
+
+.footer{
+	position: relative;
+	display: flex;
+	font-family: 'Lekton', sans-serif;
+	color: #356859;
+	padding-top: 15px;
+	bottom: 0px;
+	width: 100%;
+	background-color: #FAFAFA;
+	text-align: center;
+}
+
+/* ------- For mobile phones: ------- */
+@media (max-width: 1028px) { 
+		html, body {
+	    max-width: 100%;
+	    overflow-x: hidden;
+	    background-color: #fffbe6 !important;
+	}
+
+	/* Visibility */
+	nav, .profile-info, .form-group{
+		visibility: visible;
+		display: inherit;
+	}
+
+	#profile{ 
+		border-radius: 50%;
+		width: 200px; 
+		height: 200px;
+		margin: 20px;
+	}
+
+	.profile-info{margin-top: 15%;}
+
+	#push-name{
+		font-family: 'Montserrat', sans-serif;
+		color: #fd5523;
+	}
+
+	#push-passion{
+		font-family: 'Lekton', sans-serif;
+		font-size: 20px;
+		color: #356859;
+	}
+
+	#inputValid{
+		width: 200px;
+		margin-top: 10%;
+	}
+
+	#inputValid:focus{border-color: #fd5523;}	
+
+	#why{
+		font-family: 'Lekton', sans-serif;
+		font-size: 16px;
+		color: #356859;
+		margin-top: 5%;
+	}
+
+	.footer{
+		position: absolute;
+		display: flex;
+		font-family: 'Lekton', sans-serif;
+		color: #356859;
+		padding-top: 15px;
+		bottom: 0px;
+		width: 100%;
+		background-color: #FAFAFA;
+		text-align: center;
+	}
+}

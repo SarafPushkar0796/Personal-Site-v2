@@ -1,0 +1,116 @@
+/* No display in desktop view */
+nav, #tabs,#myTabContent{
+	visibility: hidden;
+	display: none;
+}
+
+/* For desktop view only */		
+footer,#desk-show{
+	visibility: visible !important;
+	display: block !important;
+}
+
+.footer{
+	position: absolute;
+	display: flex;
+	font-family: 'Lekton', sans-serif;
+	color: #356859;
+	padding-top: 15px;
+	bottom: 0 !important;
+	width: 100%;
+	background-color: #FAFAFA;
+	text-align: center;
+}
+
+@media (max-width: 1028px) { 
+	html, body{overflow-x: hidden;}
+
+	/* display in mobile view */
+	nav,footer, #tabs,#myTabContent{
+		visibility: visible; 
+		display: inherit;
+	}
+
+	/* Hidden in mobile view */
+	footer,#desk-show{
+		visibility: hidden !important; 
+		display: none !important;
+	}
+
+	.nav{
+		font-family: 'Montserrat', sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.nav-link{color: #fd5523 !important;}
+
+	#tabs{padding-top: 0;}
+
+	#about, #skills, #projects, #contact{padding-top: 5%;}
+
+	#success{bottom: 2%;}
+
+	.card-header{
+		font-size: 18px;
+		color: #b9e4c9;
+		background-color: #fffbe6;
+	}
+
+	.card-text{font-size: 16px;}
+
+	.card-header, .card-text{
+		font-family: 'Lekton', sans-serif;
+		color: #356859;
+	}
+
+	.arrow-icons{
+		padding: 2%;
+		color: #fd5523;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+	.footer{
+		position: absolute;
+		display: flex;
+		font-family: 'Lekton', sans-serif;
+		color: #356859;
+		padding-top: 15px;
+		bottom: 0 !important;
+		width: 100%;
+		background-color: #FAFAFA;
+		text-align: center;
+	}
+
+	.click-text{
+		line-height: 40px;
+		margin-right: 10%;
+	}
+
+	/* Legend css */
+	h5{
+		font-family: 'Montserrat', sans-serif;
+		color: #37966f;
+	}
+
+	#skill-header{
+		font-family: 'Montserrat', sans-serif;
+		color: #fd5523;
+		padding: 2% 0 2% 0;	
+	}
+
+	.legend{
+		font-family: 'Montserrat', sans-serif;
+		color: #fd5523;
+	}
+
+	.legend-info{
+		font-family: 'Lekton', sans-serif;
+		color: #37966f;
+	}
+
+	.skill-content{
+		font-family: 'Lekton', sans-serif;
+		color: #37966f;
+	}
+}
