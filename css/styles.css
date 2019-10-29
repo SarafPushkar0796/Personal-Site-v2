@@ -74,6 +74,8 @@ h5{
 	color: #37966f;
 }
 
+.bg-custom{background-color: #fffbe6;}
+
 .footer{
 	position: relative;
 	display: flex;

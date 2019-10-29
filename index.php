@@ -165,7 +165,7 @@ if (isset($_POST['like'])) {
 				</div>
 				<div class="col-lg-6">
 					<!-- Legend for experience levels -->
-					<div class="alert alert-dismissible alert-success" style="margin: 10%">
+					<div class="alert alert-dismissible alert-warning" style="margin: 10%">
 						<button type="button" class="close" data-dismiss="alert">&times;</button>
 						<strong><h5><b>Legend</b></h5></strong><hr>
 						<p class="legend"><b>BEG - </b><span class="legend-info">Beginner</span></p>
@@ -179,7 +179,7 @@ if (isset($_POST['like'])) {
 					<div class="col-lg-6">
 						<div class="card mb-3 shadow-sm" style="max-width: 100%;">
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Graphic Design</b></h4></div>
-							<div class="card-body">
+							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">UI Design</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Website Design</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Branding</span><b style="float:right;">APR</b></p>
@@ -190,7 +190,7 @@ if (isset($_POST['like'])) {
 					<div class="col-lg-6">
 						<div class="card mb-3 shadow-sm" style="max-width: 100%;">
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Front-end</b></h4></div>
-							<div class="card-body">
+							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">HTML5 & CSS3</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">JavaScript & JQuery</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Bootstrap 4</span><b style="float:right;">INT</b></p>
@@ -203,7 +203,7 @@ if (isset($_POST['like'])) {
 					<div class="col-lg-6">
 						<div class="card mb-3 shadow-sm" style="max-width: 100%;">
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Back-end</b></h4></div>
-							<div class="card-body">
+							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">PHP</span><b style="float:right;">APR</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">NodeJS</span><b style="float:right;">APR</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">MySQL</span><b style="float:right;">APR</b></p>
@@ -215,7 +215,7 @@ if (isset($_POST['like'])) {
 					<div class="col-lg-6">
 						<div class="card mb-3 shadow-sm" style="max-width: 100%;">
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Other Technologies</b></h4></div>
-							<div class="card-body">
+							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Android Studio</span><b style="float:right;">APR</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">PassportJS</span><b style="float:right;">BEG</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Progressive Web Application</span><b style="float:right;">BEG</b></p>
@@ -231,7 +231,7 @@ if (isset($_POST['like'])) {
 					<div class="col-lg-6">
 						<div class="card mb-3 shadow-sm" style="max-width: 100%;">
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Softwares</b></h4></div>
-							<div class="card-body">
+							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Adobe Illustrator</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Adobe XD</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Adobe Photoshop</span><b style="float:right;">BEG</b></p>
@@ -584,16 +584,16 @@ if (isset($_POST['like'])) {
 					<div class="card-header bg-white"><h2><b>Contact</b></h2></div>
 					<div class="card-body mx-auto">
 						<div class="row">
-							<div class="col-lg-4">
+							<div class="col-lg-3">
 								<span id="github" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="GitHub" class="card-text con-info"><a href="https://github.com/SarafPushkar0796" target="_blank"><img src="SVGs/github.svg"></a></span>	
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-3">
 								<span id="linkedin" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="LinkedIn" class="card-text con-info"><a href="https://in.linkedin.com/in/pushkar-saraf-72488a157" target="_blank"><img src="SVGs/linkedin.svg"></a></span>	
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-3">
 								<span id="instagram" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Instagram" class="card-text con-info"><a href="https://www.instagram.com/pushkars919/" target="_blank"><img src="SVGs/instagram.svg"></a></span>
 							</div>
-							<div class="col-lg-4">
+							<div class="col-lg-3">
 								<span id="email" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Email" class="card-text con-info"><a href="mailto:pushkars919@gmail.com?" target="_blank"><img src="SVGs/mail.svg"></a></span>
 							</div>
 						</div>
