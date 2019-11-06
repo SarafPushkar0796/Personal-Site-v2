@@ -59,8 +59,10 @@ if (isset($_POST['like'])) {
     <style type="text/css">
 		.navbar{margin-bottom: 2% !important;}
 		.desktop-mode{visibility: visible;display: inherit;}
+		#profile-photo{margin-top: 2%;}
 		@media (max-width: 1028px) {
 			.desktop-mode{visibility: hidden; display: none;}
+			#profile-photo{margin-top: 10%;}
 		}
 	</style>
 </head>
@@ -77,7 +79,7 @@ if (isset($_POST['like'])) {
 	  </a>
 	</nav>
 
-	<div class="container">
+	<div id="profile-photo" class="container">
 
 		<!-- Pushkar Profile Info -->
 		<!-- Profile picture -->
@@ -217,12 +219,10 @@ if (isset($_POST['like'])) {
 							<div class="card-header bg-white"><h4 class="skill-content"><b>Other Technologies</b></h4></div>
 							<div class="card-body bg-custom">
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Android Studio</span><b style="float:right;">APR</b></p>
-								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">PassportJS</span><b style="float:right;">BEG</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Progressive Web Application</span><b style="float:right;">BEG</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Firebase</span><b style="float:right;">BEG</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">GitHub</span><b style="float:right;">INT</b></p>
 								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Heroku</span><b style="float:right;">INT</b></p>
-								<p class="legend"> <b> - </b> <span class="legend-info" style="font-size: 17px;">Netlify</span><b style="float:right;">INT</b></p>
 							</div>
 						</div>
 					</div>
@@ -628,8 +628,13 @@ if (isset($_POST['like'])) {
 		  <center>
 		  	<p id="why" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="That's how you'll remember me!">Why name?</p>
 		  	<button id="go" type="button" class="btn btn-outline-success">Let's Go</button>
-		  </center>
+		  </center><br/>
+		  <center><a href="home.php" style="font-size: 12px;font-family: 'Lekton',sans-serif;">Skip</a></center>
 		</div>
+	</div>
+
+	<div id="mobile-view" class="container" style="margin-top: 15%; font-family: 'Lekton',sans-serif;">
+		<center><p><b>Made with <code>&lt;PASSION/&gt;</code></b></p></center>
 	</div>
 
 	<!-- Footer -->
@@ -661,7 +666,7 @@ if (isset($_POST['like'])) {
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title">Hmmm, that's not my name.</h5>
+	        <h5 class="modal-title">Hmmm, that's not my <b>full name.</b></h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>

@@ -168,11 +168,12 @@ if (isset($_POST['like'])) {
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<!-- Image -->
-				<div class="container">
-					<img src="SVGs/vector-success.svg" id="success" class="fixed-bottom mx-auto" alt="Success Image">
+					<!-- Image -->
+					<center>
+						<div class="container" style="margin-top: 10%;">
+							<img src="SVGs/vector-success.svg" id="success" class="mx-auto" alt="Success Image">
+						</div>
+					</center>
 				</div>
 			</div>
 
@@ -624,6 +625,10 @@ if (isset($_POST['like'])) {
 
 			$('.next').click(function(){
 				$('.carousel').carousel('next')
+			})
+
+			$('.carousel').carousel({
+			  interval: 10000
 			})
 
 			$('#like').click(function(){

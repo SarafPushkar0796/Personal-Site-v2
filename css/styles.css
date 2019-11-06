@@ -10,7 +10,7 @@ html, body {
     background-color: #fffbe6 !important;
 }
 
-nav, .profile-info, .form-group{
+nav, .profile-info, .form-group, #mobile-view{
 	visibility: hidden;
 	display: none;
 }
@@ -44,6 +44,8 @@ nav, .profile-info, .form-group{
 	font-size: 18px;
 	font-weight: bold;
 }
+
+.arrow-icons:hover{cursor: pointer;}
 
 .brand{
 	position: absolute;
@@ -97,10 +99,12 @@ h5{
 	}
 
 	/* Visibility */
-	nav, .profile-info, .form-group{
+	nav, .profile-info, .form-group, #mobile-view{
 		visibility: visible;
 		display: inherit;
 	}
+
+	.footer{visibility: hidden; display: none;}
 
 	#profile{ 
 		border-radius: 50%;
@@ -109,7 +113,7 @@ h5{
 		margin: 20px;
 	}
 
-	.profile-info{margin-top: 15%;}
+	.profile-info{margin-top: 7%;}
 
 	#push-name{
 		font-family: 'Montserrat', sans-serif;
@@ -137,12 +141,11 @@ h5{
 	}
 
 	.footer{
-		position: absolute;
-		display: flex;
+		position: fixed;
 		font-family: 'Lekton', sans-serif;
 		color: #356859;
 		padding-top: 15px;
-		bottom: 0px;
+		bottom: 0;
 		width: 100%;
 		background-color: #FAFAFA;
 		text-align: center;
